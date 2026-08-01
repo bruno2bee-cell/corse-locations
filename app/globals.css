@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  /* Palette "Balagne" — bleu crépuscule dominant, pierre dorée, maquis,
+     badigeon blanc, terracotta en accent rare (CTA uniquement). */
+  --color-dusk-900: #0f2733;
+  --color-dusk-700: #1b3a4b;
+  --color-dusk-500: #2c5468;
+  --color-dusk-300: #6f95a5;
+  --color-stone-400: #c9a467;
+  --color-stone-200: #e6d4ab;
+  --color-maquis-600: #4a5d3a;
+  --color-maquis-400: #7a8f63;
+  --color-whitewash: #f2efe9;
+  --color-whitewash-dim: #e8e3d8;
+  --color-terracotta: #b5533c;
+  --color-terracotta-dark: #8f3f2c;
+
+  --font-display: var(--font-fraunces);
+  --font-body: var(--font-inter);
+  --font-mono: var(--font-jetbrains);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-whitewash);
+  color: var(--color-dusk-900);
+  font-family: var(--font-body);
+}
+
+/* Respecte les préférences de mouvement réduit */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Focus clavier visible partout, en cohérence avec la charte */
+:focus-visible {
+  outline: 2px solid var(--color-terracotta);
+  outline-offset: 3px;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reveal {
+  animation: fade-in-up 0.7s ease-out both;
+}
