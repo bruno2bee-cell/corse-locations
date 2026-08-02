@@ -52,7 +52,7 @@ export interface PointOfInterest {
 }
 
 export interface Location {
-  slug: string; // utilisé dans l'URL : /locations/villa-mare
+  slug: string; // utilisé dans l'URL : /locations/casa-tignoso
   name: string;
   tagline: string;
   shortDescription: string; // affichée sur la page d'accueil
@@ -77,32 +77,29 @@ export interface Location {
 
 export const locations: Location[] = [
   {
-    slug: "villa-mare",
-    name: "Villa Mare",
-    tagline: "Face à la mer, entre Calvi et l'Île-Rousse",
+    slug: "casa-tignoso",
+    name: "Casa Tignoso",
+    tagline: "Villa calme avec vue mer, à deux pas des plages de Monticello",
     shortDescription:
-      "Maison de caractère avec vue mer imprenable, à deux pas des plages de sable fin de la Balagne.",
+      "Villa avec piscine à débordement et vue sur la baie, à quelques minutes à pied des plages et du centre de Monticello.",
     longDescription: [
-      "À REMPLACER : décris ici l'histoire de la maison, son ambiance, ce qui la rend unique. Parle de la lumière du soir sur le golfe, du bruit des cigales, de la terrasse où l'on prend le petit-déjeuner face au large.",
-      "À REMPLACER : détaille les pièces de vie, l'agencement, le style de décoration (pierre, bois, tomettes...).",
+      "À AJUSTER (brouillon) : Une villa au calme, avec vue mer et un accès aux plages à pied. Boulangerie et supérette à 200 m, centre-ville à 900 m, plage à 400 m. Grande terrasse avec piscine à débordement donnant sur la baie.",
+      "À AJUSTER (brouillon) : décris ici l'ambiance de la maison, le style de décoration, ce que tu aimes montrer à tes hôtes en arrivant.",
     ],
-    village: "Lumio",
-    capacity: 6,
-    bedrooms: 3,
-    bathrooms: 2,
-    surfaceM2: 110,
+    village: "Monticello",
+    capacity: 8,
+    bedrooms: 4,
+    bathrooms: 4,
+    surfaceM2: 150, // À REMPLACER : surface réelle en m²
     amenities: [
       "wifi",
-      "parking",
-      "clim",
+      "piscine",
       "vue-mer",
-      "jardin",
       "cuisine-equipee",
-      "lave-linge",
       "terrasse",
-      "barbecue",
+      "acces-plage",
     ],
-    coordinates: { lat: 42.5397, lng: 8.8899 }, // Lumio, à ajuster avec les coordonnées réelles
+    coordinates: { lat: 42.617, lng: 8.955 }, // Centre de Monticello, à affiner avec la position exacte de la villa
     coverImage: "/images/villa-mare/cover.jpg",
     gallery: [
       "/images/villa-mare/salon.jpg",
@@ -114,59 +111,54 @@ export const locations: Location[] = [
     ],
     nearby: [
       {
-        name: "Plage de Lumio",
+        name: "Plage la plus proche",
         category: "plage",
-        distanceKm: 1.2,
-        description: "À REMPLACER : petite crique de sable, idéale en fin de journée.",
+        distanceKm: 0.4,
+        description: "À REMPLACER : nom et ambiance de la plage.",
       },
       {
-        name: "Calvi et sa citadelle",
+        name: "Centre de Monticello",
         category: "village",
-        distanceKm: 8,
-        description: "À REMPLACER : citadelle génoise, port de plaisance, restaurants en bord de plage.",
+        distanceKm: 0.9,
+        description: "À REMPLACER : boulangerie, supérette, ambiance du village.",
       },
     ],
     externalLinks: {
-      airbnb: "https://www.airbnb.fr/rooms/REMPLACER_PAR_TON_ID",
-      booking: "https://www.booking.com/hotel/fr/REMPLACER.fr.html",
+      airbnb: "https://www.airbnb.ch/rooms/51254967",
     },
     icalFeeds: [
       {
         label: "Airbnb",
-        url: "https://www.airbnb.fr/calendar/ical/REMPLACER.ics?s=REMPLACER",
-      },
-      {
-        label: "Booking.com",
-        url: "https://admin.booking.com/hotel/hoteladmin/ical.html?REMPLACER",
+        url: "REMPLACER : coller ici l'URL du flux iCal Airbnb pour Casa Tignoso",
       },
     ],
-    priceIndication: "À partir de 140€ / nuit selon saison",
+    priceIndication: "À REMPLACER : ex. À partir de 200€ / nuit selon saison",
   },
   {
-    slug: "casa-monte",
-    name: "Casa Monte",
-    tagline: "Bergerie rénovée au cœur des villages perchés",
+    slug: "isula-rossa-bellavista",
+    name: "IsulaRossa Bellavista",
+    tagline: "Penthouse avec jacuzzi et vue panoramique, à L'Île-Rousse",
     shortDescription:
-      "Ancienne bergerie en pierre restaurée avec goût, nichée dans un village typique de la Balagne, entre maquis et montagne.",
+      "Penthouse récent (2023) de 128 m² avec 100 m² de terrasse et jacuzzi, vue panoramique sur L'Île-Rousse, les Agriates et le Cap Corse.",
     longDescription: [
-      "À REMPLACER : décris l'authenticité du lieu, son caractère rustique-chic, la vue sur les villages perchés et le maquis environnant.",
-      "À REMPLACER : évoque le calme, les matériaux d'origine conservés (pierre, poutres), le charme de l'intérieur.",
+      "À AJUSTER (brouillon) : Un penthouse neuf et lumineux, avec une grande terrasse et un jacuzzi offrant une vue panoramique sur la mer, les Agriates, le Cap Corse et les montagnes. À proximité immédiate du centre-ville, du port, des commerces et de la plage, dans une résidence très calme.",
+      "À AJUSTER (brouillon) : décris ici l'agencement des 3 chambres (chacune avec sa propre terrasse), la décoration, la climatisation, et ce qui rend le lieu unique pour un séjour de charme.",
     ],
-    village: "Pigna",
-    capacity: 4,
-    bedrooms: 2,
-    bathrooms: 1,
-    surfaceM2: 75,
+    village: "L'Île-Rousse",
+    capacity: 6,
+    bedrooms: 3,
+    bathrooms: 2,
+    surfaceM2: 128,
     amenities: [
       "wifi",
-      "parking",
-      "jardin",
+      "clim",
+      "vue-mer",
       "cuisine-equipee",
-      "lave-linge",
       "terrasse",
-      "animaux",
+      "parking",
+      "acces-plage",
     ],
-    coordinates: { lat: 42.6017, lng: 8.9236 }, // Pigna, à ajuster
+    coordinates: { lat: 42.632, lng: 8.935 }, // Centre de L'Île-Rousse, à affiner avec la position exacte de l'appartement
     coverImage: "/images/casa-monte/cover.jpg",
     gallery: [
       "/images/casa-monte/facade.jpg",
@@ -177,28 +169,28 @@ export const locations: Location[] = [
     ],
     nearby: [
       {
-        name: "Village de Pigna",
+        name: "Centre-ville et port de L'Île-Rousse",
         category: "village",
-        distanceKm: 0.1,
-        description: "À REMPLACER : village d'artisans, ruelles en pierre, ateliers d'artistes.",
+        distanceKm: 0.5,
+        description: "À REMPLACER : ambiance du port, commerces, marché couvert...",
       },
       {
-        name: "Sentier vers Sant'Antonino",
-        category: "randonnee",
-        distanceKm: 3,
-        description: "À REMPLACER : balade entre les villages perchés avec vue sur le golfe.",
+        name: "Plage la plus proche",
+        category: "plage",
+        distanceKm: 0.5,
+        description: "À REMPLACER : nom et ambiance de la plage.",
       },
     ],
     externalLinks: {
-      airbnb: "https://www.airbnb.fr/rooms/REMPLACER_PAR_TON_ID",
+      airbnb: "https://www.airbnb.ch/rooms/776763722570318905",
     },
     icalFeeds: [
       {
         label: "Airbnb",
-        url: "https://www.airbnb.fr/calendar/ical/REMPLACER.ics?s=REMPLACER",
+        url: "REMPLACER : coller ici l'URL du flux iCal Airbnb pour IsulaRossa Bellavista",
       },
     ],
-    priceIndication: "À partir de 95€ / nuit selon saison",
+    priceIndication: "À REMPLACER : ex. À partir de 180€ / nuit selon saison",
   },
 ];
 
