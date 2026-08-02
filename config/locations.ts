@@ -6,7 +6,7 @@
 // Aucune connaissance en code n'est nécessaire pour éditer ce fichier :
 // remplace juste les valeurs entre guillemets.
 // ============================================================================
-
+ 
 export type Amenity =
   | "wifi"
   | "parking"
@@ -20,7 +20,7 @@ export type Amenity =
   | "barbecue"
   | "animaux"
   | "acces-plage";
-
+ 
 export const amenityLabels: Record<Amenity, string> = {
   wifi: "Wifi haut débit",
   parking: "Parking privé",
@@ -35,7 +35,7 @@ export const amenityLabels: Record<Amenity, string> = {
   animaux: "Animaux acceptés",
   "acces-plage": "Accès plage à pied",
 };
-
+ 
 export interface IcalFeed {
   // Nom affiché en interne uniquement (ex: "Airbnb", "Booking.com", "Réservations directes")
   label: string;
@@ -43,14 +43,14 @@ export interface IcalFeed {
   // de chaque plateforme ("Exporter le calendrier" / "Synchronisation calendrier").
   url: string;
 };
-
+ 
 export interface PointOfInterest {
   name: string;
   category: "plage" | "village" | "restaurant" | "randonnee" | "commerce";
   distanceKm: number;
   description: string;
 }
-
+ 
 export interface Location {
   slug: string; // utilisé dans l'URL : /locations/casa-tignoso
   name: string;
@@ -74,7 +74,7 @@ export interface Location {
   icalFeeds: IcalFeed[];
   priceIndication: string; // ex: "À partir de 120€/nuit" — reste volontairement flou, pas de moteur de réservation
 }
-
+ 
 export const locations: Location[] = [
   {
     slug: "casa-tignoso",
@@ -193,7 +193,8 @@ export const locations: Location[] = [
     priceIndication: "À REMPLACER : ex. À partir de 180€ / nuit selon saison",
   },
 ];
-
+ 
 export function getLocationBySlug(slug: string): Location | undefined {
   return locations.find((l) => l.slug === slug);
 }
+ 
