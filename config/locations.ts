@@ -21,16 +21,19 @@ export type Amenity =
   | "animaux"
   | "acces-plage";
  
-amenities: [
-  "wifi",
-  "parking",
-  "clim",
-  "piscine",
-  "vue-mer",
-  "cuisine-equipee",
-  "terrasse",
-  "acces-plage",
-],
+export const amenityLabels: Record<Amenity, string> = {
+  wifi: "Wifi haut débit",
+  parking: "Parking privé",
+  clim: "Climatisation",
+  piscine: "Piscine",
+  "vue-mer": "Vue mer",
+  jardin: "Jardin privatif",
+  "cuisine-equipee": "Cuisine équipée",
+  "lave-linge": "Lave-linge",
+  terrasse: "Terrasse",
+  barbecue: "Barbecue",
+  animaux: "Animaux acceptés",
+  "acces-plage": "Accès plage à pied",
 };
  
 export interface IcalFeed {
