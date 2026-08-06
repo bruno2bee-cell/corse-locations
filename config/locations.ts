@@ -85,7 +85,12 @@ export const locations: Location[] = [
     longDescription: [
       longDescription: [
   "À AJUSTER (brouillon) : Une villa au calme, avec vue mer et un accès aux plages à pied. Boulangerie et supérette à 200 m, centre-ville à 900 m, plage à 400 m. Grande terrasse avec piscine à débordement donnant sur la baie.",
-  "À AJUSTER (brouillon) : décris ici l'ambiance de la maison, le style de décoration, ce que tu aimes montrer à tes hôtes en arrivant.",
+ longDescription: [
+  "Bienvenue à Casa Tignoso, une demeure paisible et entièrement climatisée, idéalement située à Monticello. Nichée dans un cadre verdoyant et reposant, cette villa offre une vue mer apaisante et tout le confort nécessaire pour des vacances inoubliables en famille ou entre amis.",
+  "La villa dispose de 4 chambres spacieuses, toutes équipées de lits doubles et chacune dotée de sa salle de bain privative. Vous profiterez d'une grande terrasse ensoleillée et d'une piscine chauffée, parfaite pour se détendre à toute heure de la journée.",
+  "Pour les moments de détente et de jeux, la propriété propose également une salle de jeux, un terrain de badminton et un espace pétanque. Les familles avec jeunes enfants seront particulièrement bien accueillies : lits parapluie, poussettes et chaise haute sont mis à disposition.",
+  "La villa dispose de 4 places de parking privatives, dont une équipée d'une borne de recharge pour véhicule électrique. Boulangerie, supérette, centre-ville et plages sont accessibles en quelques minutes.",
+],
 ],
       "À AJUSTER (brouillon) : décris ici l'ambiance de la maison, le style de décoration, ce que tu aimes montrer à tes hôtes en arrivant.",
     ],
