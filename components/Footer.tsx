@@ -18,7 +18,7 @@ export function Footer() {
             <p className="text-sm font-semibold text-stone-400">Explorer</p>
             <ul className="mt-3 space-y-2 text-sm text-whitewash/80">
               <li><Link href="/locations/casa-tignoso" className="hover:text-stone-200">Casa Tignoso</Link></li>
-              <li><Link href="/locations/casa-monte" className="hover:text-stone-200">Casa Monte</Link></li>
+             <li><Link href="/locations/isula-rossa-bellavista" className="hover:text-stone-200">IsulaRossa Bellavista</Link></li>
               <li><Link href="/corse" className="hover:text-stone-200">Découvrir la Balagne</Link></li>
               <li><Link href="/galerie" className="hover:text-stone-200">Galerie photo</Link></li>
             </ul>
