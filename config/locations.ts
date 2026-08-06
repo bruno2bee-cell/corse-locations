@@ -83,7 +83,10 @@ export const locations: Location[] = [
     shortDescription:
       "Villa avec piscine à débordement et vue sur la baie, à quelques minutes à pied des plages et du centre de Monticello.",
     longDescription: [
-      "À AJUSTER (brouillon) : Une villa au calme, avec vue mer et un accès aux plages à pied. Boulangerie et supérette à 200 m, centre-ville à 900 m, plage à 400 m. Grande terrasse avec piscine à débordement donnant sur la baie.",
+      longDescription: [
+  "À AJUSTER (brouillon) : Une villa au calme, avec vue mer et un accès aux plages à pied. Boulangerie et supérette à 200 m, centre-ville à 900 m, plage à 400 m. Grande terrasse avec piscine à débordement donnant sur la baie.",
+  "À AJUSTER (brouillon) : décris ici l'ambiance de la maison, le style de décoration, ce que tu aimes montrer à tes hôtes en arrivant.",
+],
       "À AJUSTER (brouillon) : décris ici l'ambiance de la maison, le style de décoration, ce que tu aimes montrer à tes hôtes en arrivant.",
     ],
     village: "Monticello",
