@@ -144,7 +144,7 @@ export default async function LocationPage({
           <aside className="lg:sticky lg:top-24 lg:self-start">
             <p className="font-mono text-sm text-dusk-500">{location.priceIndication}</p>
             <div className="mt-4">
-              <AvailabilityCalendar slug={location.slug} airbnbUrl={location.externalLinks.airbnb} />
+            <AvailabilityCalendar slug={location.slug} airbnbUrl={location.externalLinks.airbnb} rating={location.rating} reviewCount={location.reviewCount} />
             </div>
             {location.externalLinks.booking && (
               <a
