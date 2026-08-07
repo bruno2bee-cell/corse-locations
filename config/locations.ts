@@ -73,6 +73,8 @@ export interface Location {
   };
   icalFeeds: IcalFeed[];
   priceIndication: string; // ex: "À partir de 120€/nuit" — reste volontairement flou, pas de moteur de réservation
+ rating?: number;
+  reviewCount?: number;
 }
  
 export const locations: Location[] = [
@@ -137,6 +139,8 @@ export const locations: Location[] = [
       },
     ],
     priceIndication: "À REMPLACER : ex. À partir de 200€ / nuit selon saison",
+   rating: 5.0,
+      reviewCount: 8,
   },
   {
     slug: "isula-rossa-bellavista",
@@ -195,6 +199,8 @@ export const locations: Location[] = [
       },
     ],
     priceIndication: "À REMPLACER : ex. À partir de 180€ / nuit selon saison",
+   rating: 4.82,
+      reviewCount: 28,
   },
 ];
  
