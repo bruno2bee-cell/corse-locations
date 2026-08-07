@@ -20,9 +20,13 @@ const WEEKDAY_LABELS = ["L", "M", "M", "J", "V", "S", "D"];
 export function AvailabilityCalendar({
   slug,
   airbnbUrl,
+  rating,
+  reviewCount,
 }: {
   slug: string;
   airbnbUrl?: string;
+  rating?: number;
+  reviewCount?: number;
 }) {
   const [data, setData] = useState<AvailabilityResult | null>(null);
   const [loadError, setLoadError] = useState<string | null>(null);
@@ -170,11 +174,17 @@ export function AvailabilityCalendar({
         </>
       )}
 
-      <p className="mt-5 text-sm text-dusk-500">
-        Ce calendrier reflète nos annonces Airbnb et Booking. Pour réserver,
-        merci de passer directement par la plateforme de votre choix ou de
-        nous contacter.
-      </p>
+     {rating && reviewCount && (
+          <p className="mt-4 text-sm text-dusk-700">
+            ★ {rating.toFixed(1)} · {reviewCount} avis sur Airbnb
+          </p>
+        )}
+
+        <p className="mt-5 text-sm text-dusk-500">
+          Ce calendrier reflète nos annonces Airbnb et Booking. Pour réserver,
+          merci de passer directement par la plateforme de votre choix ou de
+          nous contacter.
+        </p>
       <div className="mt-3 flex flex-wrap gap-3">
         {airbnbUrl && (
           <a
