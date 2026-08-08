@@ -51,10 +51,7 @@ export default function HomePage() {
             Deux maisons, un même art de vivre corse.
           </h1>
           <p className="reveal mt-5 max-w-lg text-whitewash/85">
-            À REMPLACER : une accroche personnelle sur ce qui vous a donné
-            envie de partager ces deux lieux — l&apos;histoire de la famille,
-            la découverte de la Balagne, l&apos;envie de faire vivre cette
-            expérience à vos hôtes.
+           C&apos;est en découvrant la Balagne, ses collines douces et sa lumière unique, que nous avons eu le coup de cœur. Nous avons voulu créer des lieux où l&apos;on se sent vraiment chez soi, entre mer et montagne. Partager cette douceur de vivre, ces moments de calme et de beauté avec nos hôtes est devenu une évidence. Chaque maison est née de cette envie simple : offrir une parenthèse authentique et ressourçante. Bienvenue dans notre coin de Balagne, nous serons heureux de vous y accueillir.
           </p>
           <div className="reveal mt-8 flex flex-wrap gap-4">
             <Link
