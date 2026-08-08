@@ -149,7 +149,8 @@ export const locations: Location[] = [
     shortDescription:
       "Penthouse récent (2023) de 128 m² avec 100 m² de terrasse et jacuzzi, vue panoramique sur L'Île-Rousse, les Agriates et le Cap Corse.",
     longDescription: [
-      "À AJUSTER (brouillon) : Un penthouse neuf et lumineux, avec une grande terrasse et un jacuzzi offrant une vue panoramique sur la mer, les Agriates, le Cap Corse et les montagnes. À proximité immédiate du centre-ville, du port, des commerces et de la plage, dans une résidence très calme.",
+    "Découvrez ce penthouse neuf et lumineux, véritable écrin contemporain au cœur de la Balagne. Sa grande terrasse privée, équipée d&apos;un jacuzzi, offre une vue à 180° absolument spectaculaire : mer, désert des Agriates, Cap Corse et montagnes se déploient sous vos yeux.",
+"Idéalement situé à deux pas du centre-ville, du port, des commerces et de la plage, l&apos;appartement se trouve pourtant dans une résidence très calme, garantissant tranquillité et sérénité. Un lieu rare alliant confort moderne, luminosité et panorama d&apos;exception pour des séjours inoubliables.",
       "À AJUSTER (brouillon) : décris ici l'agencement des 3 chambres (chacune avec sa propre terrasse), la décoration, la climatisation, et ce qui rend le lieu unique pour un séjour de charme.",
     ],
     village: "L'Île-Rousse",
