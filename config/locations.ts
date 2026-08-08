@@ -169,11 +169,12 @@ export const locations: Location[] = [
     coordinates: { lat: 42.632, lng: 8.935 }, // Centre de L'Île-Rousse, à affiner avec la position exacte de l'appartement
     coverImage: "/images/casa-monte/cover.jpg",
     gallery: [
-      "/images/casa-monte/facade.jpg",
-      "/images/casa-monte/sejour.jpg",
-      "/images/casa-monte/chambre-1.jpg",
-      "/images/casa-monte/terrasse.jpg",
-      "/images/casa-monte/village.jpg",
+     "/images/casa-monte/cuisine.jpg",
+"/images/casa-monte/chambre-1.jpg",
+"/images/casa-monte/chambre-2.jpg",
+"/images/casa-monte/chambre-3.jpg",
+"/images/casa-monte/terrasse.jpg",
+"/images/casa-monte/vue-mer.jpg",
     ],
     nearby: [
       {
