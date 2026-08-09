@@ -65,3 +65,15 @@ body {
 .reveal {
   animation: fade-in-up 0.7s ease-out both;
 }
+@keyframes hero-zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.12);
+  }
+}
+
+.animate-hero-zoom {
+  animation: hero-zoom 20s ease-out forwards;
+}
