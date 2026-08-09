@@ -94,7 +94,7 @@ export const locations: Location[] = [
     capacity: 8,
     bedrooms: 4,
     bathrooms: 4,
-    surfaceM2: 150, // À REMPLACER : surface réelle en m²
+    surfaceM2: 200,
      amenities: [
         "wifi",
         "parking",
@@ -120,13 +120,13 @@ export const locations: Location[] = [
         name: "Plage la plus proche",
         category: "plage",
         distanceKm: 0.4,
-        description: "À REMPLACER : nom et ambiance de la plage.",
+        description: "Une plage de sable fin aux eaux turquoise, accessible en quelques minutes à pied, idéale pour se baigner ou se détendre en famille.",
       },
       {
         name: "Centre de Monticello",
         category: "village",
         distanceKm: 0.9,
-        description: "À REMPLACER : boulangerie, supérette, ambiance du village.",
+       description: "Un village typique de Balagne avec sa boulangerie, sa supérette et ses ruelles pittoresques, à deux pas de la villa.",
       },
     ],
     externalLinks: {
@@ -135,10 +135,10 @@ export const locations: Location[] = [
     icalFeeds: [
       {
         label: "Airbnb",
-        url: "REMPLACER : coller ici l'URL du flux iCal Airbnb pour Casa Tignoso",
+       url: "https://fr.airbnb.ch/calendar/ical/51254967.ics?t=9bd2e5661dd24884ae8e41f6eb06f08d",
       },
     ],
-    priceIndication: "À REMPLACER : ex. À partir de 200€ / nuit selon saison",
+  priceIndication: "À partir de 428 € / nuit selon saison",
    rating: 5.0,
       reviewCount: 8,
   },
@@ -182,13 +182,13 @@ export const locations: Location[] = [
         name: "Centre-ville et port de L'Île-Rousse",
         category: "village",
         distanceKm: 0.5,
-        description: "À REMPLACER : ambiance du port, commerces, marché couvert...",
+       description: "Le cœur animé de L'Île-Rousse avec son port, ses commerces, ses restaurants et son marché couvert, à quelques pas de l'appartement.",
       },
       {
         name: "Plage la plus proche",
         category: "plage",
         distanceKm: 0.5,
-        description: "À REMPLACER : nom et ambiance de la plage.",
+        description: "Une plage de sable fin aux eaux cristallines, accessible à pied en quelques minutes.",
       },
     ],
     externalLinks: {
@@ -197,10 +197,10 @@ export const locations: Location[] = [
     icalFeeds: [
       {
         label: "Airbnb",
-        url: "REMPLACER : coller ici l'URL du flux iCal Airbnb pour IsulaRossa Bellavista",
+       url: "https://fr.airbnb.ch/calendar/ical/776763722570318905.ics?t=25ff61fbba694757aefd0fa6d072cad7",
       },
     ],
-    priceIndication: "À REMPLACER : ex. À partir de 180€ / nuit selon saison",
+    priceIndication: "À partir de 230 € / nuit selon saison",
    rating: 4.82,
       reviewCount: 28,
   },
