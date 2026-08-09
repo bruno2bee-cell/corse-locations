@@ -23,7 +23,7 @@ export const regionSections: RegionSection[] = [
     slug: "plages",
     title: "Les plages",
     icon: "plage",
-    text: "À REMPLACER : décris les plages emblématiques de la Balagne (Lozari, Ostriconi, Bodri...), leur ambiance, l'accès.",
+    text: "La Balagne compte parmi les plus belles plages de Corse : de longues étendues de sable fin bordées d'eaux turquoise, des criques plus sauvages accessibles à pied, et des spots pour tous les goûts, entre farniente en famille et coins plus confidentiels.",
     images: [
       "/images/corse/plage-1.jpg",
       "/images/corse/plage-2.jpg",
