@@ -76,7 +76,7 @@ export const regionSections: RegionSection[] = [
     text: "L'histoire de la Balagne se lit dans son patrimoine : la citadelle de Calvi veille sur la baie, les tours génoises jalonnent le littoral, et les églises baroques témoignent du riche passé de la région.",
     images: ["/images/corse/patrimoine-1.jpg", "/images/corse/patrimoine-2.jpg"],
     highlights: [
-      { name: "Citadelle de Calvi", note: "À REMPLACER : forteresse génoise dominant le golfe" },
+      { name: "Citadelle de Calvi", note: "Une forteresse génoise imposante, dominant le golfe et la ville" },
     ],
   },
 ];
