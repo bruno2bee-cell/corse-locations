@@ -66,7 +66,7 @@ export const regionSections: RegionSection[] = [
     text: "La Balagne est une terre de saveurs : charcuterie corse, fromages de brebis, miel de maquis et vins AOP Calvi se dégustent dans les bonnes adresses de la région. Marchés locaux et petits producteurs font partie intégrante de l'expérience.",
     images: ["/images/corse/gastronomie-1.jpg", "/images/corse/gastronomie-2.jpg"],
     highlights: [
-      { name: "Marché de L'Île-Rousse", note: "À REMPLACER : marché couvert, produits fermiers" },
+      { name: "Marché de L'Île-Rousse", note: "Un marché couvert animé où trouver produits fermiers et spécialités corses" },
     ],
   },
   {
