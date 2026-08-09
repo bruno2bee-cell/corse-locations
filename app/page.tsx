@@ -40,7 +40,7 @@ export default function HomePage() {
           fill
           priority
           sizes="100vw"
-          className="object-cover opacity-70"
+         className="object-cover opacity-70 animate-hero-zoom"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dusk-900 via-dusk-900/20 to-transparent" />
         <div className="relative mx-auto max-w-6xl px-6 pb-20 pt-32 text-whitewash">
