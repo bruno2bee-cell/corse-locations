@@ -30,8 +30,8 @@ export const regionSections: RegionSection[] = [
       "/images/corse/plage-3.jpg",
     ],
     highlights: [
-      { name: "Plage de l'Ostriconi", note: "À REMPLACER : dunes sauvages, embouchure de rivière" },
-      { name: "Plage de Bodri", note: "À REMPLACER : crique accessible à pied depuis un sentier côtier" },
+     { name: "Plage de l'Ostriconi", note: "Un cadre sauvage entre dunes et embouchure de rivière, à l'extrémité de la Balagne" },
+{ name: "Plage de Bodri", note: "Une crique préservée, accessible à pied par un joli sentier côtier" },
     ],
   },
   {
