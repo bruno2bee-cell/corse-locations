@@ -38,7 +38,7 @@ export const regionSections: RegionSection[] = [
     slug: "villages",
     title: "Les villages perchés",
     icon: "village",
-    text: "À REMPLACER : présente les villages typiques (Sant'Antonino, Pigna, Corbara, Aregno) et leur architecture en pierre.",
+    text: "Perchés sur les collines, les villages de Balagne ont conservé tout leur cachet : ruelles pavées, maisons en pierre et vues imprenables sur la mer. Sant'Antonino, Pigna, Corbara ou Aregno se visitent à pied, au fil des artisans, des placettes ombragées et des points de vue à couper le souffle.",
     images: [
       "/images/corse/village-1.jpg",
       "/images/corse/village-2.jpg",
