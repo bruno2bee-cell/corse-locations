@@ -45,8 +45,8 @@ export const regionSections: RegionSection[] = [
       "/images/corse/village-3.jpg",
     ],
     highlights: [
-      { name: "Sant'Antonino", note: "À REMPLACER : un des plus beaux villages de France" },
-      { name: "Pigna", note: "À REMPLACER : village d'artisans et de musiciens" },
+      { name: "Sant'Antonino", note: "Classé parmi les plus beaux villages de France, perché sur son piton rocheux" },
+{ name: "Pigna", note: "Un village vivant d'artisans et de musiciens, réputé pour ses ateliers et ses concerts" },
     ],
   },
   {
