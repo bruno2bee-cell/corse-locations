@@ -56,7 +56,7 @@ export const regionSections: RegionSection[] = [
     text: "Entre mer et montagne, la Balagne offre des itinéraires pour tous les niveaux : le sentier Mare e Monti longe la côte et l'arrière-pays sur plusieurs jours, tandis que des balades plus courtes permettent de rejoindre facilement villages, criques et points de vue en famille.",
     images: ["/images/corse/rando-1.jpg", "/images/corse/rando-2.jpg"],
     highlights: [
-      { name: "Sentier Mare e Monti", note: "À REMPLACER : itinéraire entre mer et montagne, plusieurs jours" },
+     { name: "Sentier Mare e Monti", note: "Un itinéraire de plusieurs jours entre mer et montagne, à travers villages et paysages variés" },
     ],
   },
   {
