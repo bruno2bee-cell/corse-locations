@@ -70,10 +70,11 @@ body {
     transform: scale(1);
   }
   to {
-    transform: scale(1.12);
+    transform: scale(1.08);
   }
 }
 
 .animate-hero-zoom {
-  animation: hero-zoom 20s ease-out forwards;
+  animation: hero-zoom 7s ease-out forwards;
+}
 }
