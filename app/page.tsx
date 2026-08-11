@@ -5,6 +5,7 @@ import { locations } from "@/config/locations";
 import { regionSections } from "@/config/region";
 import { PropertyCard } from "@/components/PropertyCard";
 import { CoastlineTrace } from "@/components/CoastlineTrace";
+import { HeroSlideshow } from "@/components/HeroSlideshow";
 
 const strengths = [
   {
