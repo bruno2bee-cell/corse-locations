@@ -174,7 +174,7 @@ export const locations: Location[] = [
       "parking",
       "acces-plage",
     ],
-    coordinates: { lat: 42.632, lng: 8.935 }, // Centre de L'Île-Rousse, à affiner avec la position exacte de l'appartement
+    coordinates: { lat: 42.631672, lng: 8.927675 },
     coverImage: "/images/casa-monte/cover.jpg",
     gallery: [
      "/images/casa-monte/cuisine.jpg",
