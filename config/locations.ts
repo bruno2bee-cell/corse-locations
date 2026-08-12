@@ -105,7 +105,7 @@ export const locations: Location[] = [
         "terrasse",
         "acces-plage",
       ],
-    coordinates: { lat: 42.617, lng: 8.955 }, // Centre de Monticello, à affiner avec la position exacte de la villa
+   coordinates: { lat: 42.629528, lng: 8.951083 },
     coverImage: "/images/villa-mare/cover.jpg",
     gallery: [
       "/images/villa-mare/salon.jpg",
