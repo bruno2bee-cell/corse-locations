@@ -145,7 +145,6 @@ export const locations: Location[] = [
   label: "Interhome",
   url: "https://ws.interhome.com/ih/b2p/v0100/partners/FR73571/objects/FR9254.602.1/ical?hmac=+lG/dEg6GJ5dXuHKFWzMafGQImLRSjgN6tiEkuYt+vs=&ob=true",
 },
-      },
     ],
   priceIndication: "À partir de 428 € / nuit selon saison",
    rating: 5.0,
