@@ -25,12 +25,27 @@ export default function ContactPage() {
         <aside className="space-y-6 text-sm text-dusk-700">
           <div>
             <p className="font-display text-lg text-dusk-900">Coordonnées</p>
-            <p className="mt-2">À REMPLACER : email@exemple.corsica</p>
-            <p>À REMPLACER : +33 6 00 00 00 00</p>
+            <p className="mt-2">
+  <a href="mailto:bruno2bee@gmail.com" className="hover:text-terracotta transition-colors">
+    bruno2bee@gmail.com
+  </a>
+</p>
+<p>
+  <a href="tel:+33686914662" className="hover:text-terracotta transition-colors">
+    +33 6 86 91 46 62
+  </a>
+</p>
           </div>
           <div>
             <p className="font-display text-lg text-dusk-900">Réseaux</p>
-            <p className="mt-2">À REMPLACER : liens Instagram / Facebook</p>
+            <p className="mt-2 space-y-1">
+  <span className="block">
+    Facebook : IsulaRossaBellavista · A Casa Tignoso
+  </span>
+  <span className="block">
+    Instagram : @isularossabellavista · @tignoso4
+  </span>
+</p>
           </div>
           <div>
             <p className="font-display text-lg text-dusk-900">Réservation directe</p>
