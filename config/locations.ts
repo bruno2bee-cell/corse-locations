@@ -205,7 +205,9 @@ export const locations: Location[] = [
     icalFeeds: [
       {
         label: "Airbnb",
-       url: "https://fr.airbnb.ch/calendar/ical/776763722570318905.ics?t=25ff61fbba694757aefd0fa6d072cad7",{
+       url: "https://fr.airbnb.ch/calendar/ical/776763722570318905.ics?t=25ff61fbba694757aefd0fa6d072cad7",
+        },
+        {
   label: "Interhome",
   url: "https://ws.interhome.com/ih/b2p/v0100/partners/FR73571/objects/FR9248.642.1/ical?hmac=Ce93pMv2y6JqPU1ADbtGwFfGpot5UHWD+xg5H8bfBJk=&ob=true",
 },
@@ -213,7 +215,6 @@ export const locations: Location[] = [
   label: "Abritel",
   url: "https://www.abritel.fr/icalendar/003ef49db41b4feba4b0ba83d33fde80.ics?nonTentative",
 },
-      },
     ],
     priceIndication: "À partir de 230 € / nuit selon saison",
    rating: 4.82,
