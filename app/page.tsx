@@ -42,7 +42,7 @@ export default function HomePage() {
             Balagne, Corse
           </p>
           <h1 className="reveal mt-4 max-w-2xl font-display text-5xl leading-[1.05] sm:text-6xl">
-            Deux maisons, un même art de vivre corse.
+Une villa et un appartement, un même art de vivre corse.
           </h1>
           <p className="reveal mt-5 max-w-lg text-whitewash/85">
            C&apos;est en découvrant la Balagne, ses collines douces et sa lumière unique, que nous avons eu le coup de cœur. Nous avons voulu créer des lieux où l&apos;on se sent vraiment chez soi, entre mer et montagne. Partager cette douceur de vivre, ces moments de calme et de beauté avec nos hôtes est devenu une évidence. Chaque maison est née de cette envie simple : offrir une parenthèse authentique et ressourçante. Bienvenue dans notre coin de Balagne, nous serons heureux de vous y accueillir.
