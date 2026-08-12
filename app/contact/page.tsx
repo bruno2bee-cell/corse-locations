@@ -40,10 +40,44 @@ export default function ContactPage() {
             <p className="font-display text-lg text-dusk-900">Réseaux</p>
             <p className="mt-2 space-y-1">
   <span className="block">
-    Facebook : IsulaRossaBellavista · A Casa Tignoso
+    Facebook :{" "}
+    
+      href="https://www.facebook.com/ISULAROSSABELLAVISTA?locale=fr_FR"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-terracotta transition-colors"
+    >
+      IsulaRossaBellavista
+    </a>{" "}
+    ·{" "}
+    
+      href="https://www.facebook.com/profile.php?id=100087383082515&locale=fr_FR"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-terracotta transition-colors"
+    >
+      A Casa Tignoso
+    </a>
   </span>
   <span className="block">
-    Instagram : @isularossabellavista · @tignoso4
+    Instagram :{" "}
+    
+      href="https://www.instagram.com/isularossabellavista"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-terracotta transition-colors"
+    >
+      @isularossabellavista
+    </a>{" "}
+    ·{" "}
+    
+      href="https://www.instagram.com/tignoso4"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-terracotta transition-colors"
+    >
+      @tignoso4
+    </a>
   </span>
 </p>
           </div>
