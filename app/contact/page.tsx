@@ -36,51 +36,17 @@ export default function ContactPage() {
   </a>
 </p>
           </div>
-          <div>
-            <p className="font-display text-lg text-dusk-900">Réseaux</p>
-            <p className="mt-2 space-y-1">
-  <span className="block">
-    Facebook :{" "}
-    
-      href="https://www.facebook.com/ISULAROSSABELLAVISTA?locale=fr_FR"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="hover:text-terracotta transition-colors"
-    >
-      IsulaRossaBellavista
-    </a>{" "}
-    ·{" "}
-    
-      href="https://www.facebook.com/profile.php?id=100087383082515&locale=fr_FR"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="hover:text-terracotta transition-colors"
-    >
-      A Casa Tignoso
-    </a>
-  </span>
-  <span className="block">
-    Instagram :{" "}
-    
-      href="https://www.instagram.com/isularossabellavista"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="hover:text-terracotta transition-colors"
-    >
-      @isularossabellavista
-    </a>{" "}
-    ·{" "}
-    
-      href="https://www.instagram.com/tignoso4"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="hover:text-terracotta transition-colors"
-    >
-      @tignoso4
-    </a>
-  </span>
-</p>
-          </div>
+        <div>
+  <p className="font-display text-lg text-dusk-900">Réseaux</p>
+  <p className="mt-2 space-y-1">
+    <span className="block">
+      Facebook : <a href="https://www.facebook.com/ISULAROSSABELLAVISTA?locale=fr_FR" target="_blank" rel="noopener noreferrer" className="hover:text-terracotta transition-colors">IsulaRossaBellavista</a> · <a href="https://www.facebook.com/profile.php?id=100087383082515&locale=fr_FR" target="_blank" rel="noopener noreferrer" className="hover:text-terracotta transition-colors">A Casa Tignoso</a>
+    </span>
+    <span className="block">
+      Instagram : <a href="https://www.instagram.com/isularossabellavista" target="_blank" rel="noopener noreferrer" className="hover:text-terracotta transition-colors">@isularossabellavista</a> · <a href="https://www.instagram.com/tignoso4" target="_blank" rel="noopener noreferrer" className="hover:text-terracotta transition-colors">@tignoso4</a>
+    </span>
+  </p>
+</div>
           <div>
             <p className="font-display text-lg text-dusk-900">Réservation directe</p>
             <p className="mt-2">
