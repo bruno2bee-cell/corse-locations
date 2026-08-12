@@ -135,7 +135,9 @@ export const locations: Location[] = [
     icalFeeds: [
       {
         label: "Airbnb",
-       url: "https://fr.airbnb.ch/calendar/ical/51254967.ics?t=9bd2e5661dd24884ae8e41f6eb06f08d",{
+   url: "https://fr.airbnb.ch/calendar/ical/51254967.ics?t=9bd2e5661dd24884ae8e41f6eb06f08d",
+        },
+        {
   label: "Abritel",
   url: "https://www.abritel.fr/icalendar/ffced06c87c4459a86f5884546c54b78.ics?nonTentative",
 },
