@@ -27,8 +27,16 @@ export function Footer() {
             <p className="text-sm font-semibold text-stone-400">Contact</p>
             <ul className="mt-3 space-y-2 text-sm text-whitewash/80">
               <li><Link href="/contact" className="hover:text-stone-200">Formulaire de contact</Link></li>
-              <li>À REMPLACER : email@exemple.corsica</li>
-              <li>À REMPLACER : +33 6 00 00 00 00</li>
+             <li>
+  <a href="mailto:bruno2bee@gmail.com" className="hover:text-stone-200">
+    bruno2bee@gmail.com
+  </a>
+</li>
+<li>
+  <a href="tel:+33686914662" className="hover:text-stone-200">
+    +33 6 86 91 46 62
+  </a>
+</li>
             </ul>
           </div>
         </div>
