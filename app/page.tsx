@@ -11,22 +11,22 @@ const strengths = [
   {
     icon: Waves,
     title: "Face à la Méditerranée",
-    text: "À REMPLACER : à quelques minutes à pied des plus belles plages de la Balagne.",
+    text: "À quelques minutes à pied des plus belles plages de la Balagne.",
   },
   {
     icon: MapPinned,
     title: "Villages authentiques",
-    text: "À REMPLACER : au cœur de villages en pierre, loin de l'agitation touristique.",
+    text: "Au cœur de villages en pierre, loin de l'agitation touristique.",
   },
   {
     icon: Leaf,
     title: "Accueil sur-mesure",
-    text: "À REMPLACER : conseils personnalisés, remise des clés flexible, disponibles pendant le séjour.",
+    text: "Conseils personnalisés, remise des clés flexible, disponibles pendant le séjour.",
   },
   {
     icon: Compass,
     title: "Point de départ idéal",
-    text: "À REMPLACER : proche de Calvi, L'Île-Rousse et des sentiers de randonnée du Mare e Monti.",
+    text: "Proche de Calvi, L'Île-Rousse et des sentiers de randonnée du Mare e Monti.",
   },
 ];
 
