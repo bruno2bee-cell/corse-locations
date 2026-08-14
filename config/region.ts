@@ -7,7 +7,7 @@ export const regionIntro = {
   name: "La Balagne",
   subtitle: "Entre mer turquoise et villages de pierre",
 text: "Surnommée le \"jardin de la Corse\", la Balagne s'étend entre Calvi et L'Île-Rousse, sur la côte nord-ouest de l'île. Cette région généreuse marie sans effort des plages de sable fin aux eaux turquoise, des collines couvertes d'oliviers et de vignes, et des villages perchés en pierre qui dominent la mer.",
-
+}
 export interface RegionSection {
   slug: string;
   title: string;
