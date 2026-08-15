@@ -109,6 +109,8 @@ export const locations: Location[] = [
       ],
    coordinates: { lat: 42.629528, lng: 8.951083 },
     coverImage: "/images/villa-mare/cover.jpg",
+   logo: "/images/villa-mare/logo-tignoso.jpg",
+logoClair: "/images/villa-mare/logo-tignoso-clair.png",
     gallery: [
       "/images/villa-mare/salon.jpg",
       "/images/villa-mare/terrasse.jpg",
