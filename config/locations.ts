@@ -179,6 +179,8 @@ export const locations: Location[] = [
     ],
     coordinates: { lat: 42.631672, lng: 8.927675 },
     coverImage: "/images/casa-monte/cover.jpg",
+   logo: "/images/casa-monte/logo-bellavista-navy.png",
+logoClair: "/images/casa-monte/logo-bellavista-clair.png",
     gallery: [
      "/images/casa-monte/cuisine.jpg",
 "/images/casa-monte/chambre-1.jpg",
