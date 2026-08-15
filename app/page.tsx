@@ -114,7 +114,7 @@ Une villa et un appartement, un même art de vivre corse.
               Bienvenue en Balagne
             </h2>
             <p className="mt-4 text-dusk-700">
-              Surnommée le &laquo;&nbsp;jardin de la Corse&nbsp;&raquo;, la Balagne
+             Surnommée le &laquo;&nbsp;jardin de la Corse&nbsp;&raquo;, la Balagne
 s&apos;étend entre Calvi et L&apos;Île-Rousse. Un condensé de plages
 de sable fin, de collines parfumées au maquis et de villages perchés
 qui dominent la mer.
