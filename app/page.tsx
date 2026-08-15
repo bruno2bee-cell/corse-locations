@@ -114,9 +114,10 @@ Une villa et un appartement, un même art de vivre corse.
               Bienvenue en Balagne
             </h2>
             <p className="mt-4 text-dusk-700">
-              À REMPLACER : deux phrases d&apos;accroche sur la région, son
-              surnom de &laquo;&nbsp;jardin de la Corse&nbsp;&raquo;, son
-              mélange unique de plages et de villages perchés.
+              Surnommée le &laquo;&nbsp;jardin de la Corse&nbsp;&raquo;, la Balagne
+s&apos;étend entre Calvi et L&apos;Île-Rousse. Un condensé de plages
+de sable fin, de collines parfumées au maquis et de villages perchés
+qui dominent la mer.
             </p>
             <ul className="mt-6 flex flex-wrap gap-2">
               {regionSections.map((s) => (
