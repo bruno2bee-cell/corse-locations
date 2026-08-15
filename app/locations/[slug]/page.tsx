@@ -104,12 +104,12 @@ export default async function LocationPage({
             </div>
 
             {/* Galerie */}
-            <div className="mt-12">
-              <h2 className="font-display text-2xl text-dusk-900">Photos</h2>
-              <div className="mt-5">
-                <Gallery images={location.gallery} alt={location.name} />
-              </div>
-            </div>
+<div className="mt-12">
+  <h2 className="font-display text-2xl text-dusk-900">Photos</h2>
+  <div className="mt-5">
+    <Gallery images={location.gallery} alt={location.name} />
+  </div>
+</div>
 
             {/* À proximité */}
             <div className="mt-12">
