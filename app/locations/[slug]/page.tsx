@@ -103,9 +103,18 @@ export default async function LocationPage({
               </ul>
             </div>
 
-            {/* Galerie */}
+     {/* Galerie */}
 <div className="mt-12">
-  <h2 className="font-display text-2xl text-dusk-900">Photos</h2>
+  <div className="flex items-center gap-4">
+    <Image
+      src={location.logoClair}
+      alt={`Logo ${location.name}`}
+      width={200}
+      height={130}
+      className="w-24 h-auto sm:w-28"
+    />
+    <h2 className="font-display text-2xl text-dusk-900">Photos</h2>
+  </div>
   <div className="mt-5">
     <Gallery images={location.gallery} alt={location.name} />
   </div>
