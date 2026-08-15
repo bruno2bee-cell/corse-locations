@@ -65,8 +65,8 @@ export interface Location {
   amenities: Amenity[];
   coordinates: { lat: number; lng: number };
   coverImage: string;
- logo: "/images/villa-mare/logo-tignoso.jpg",
-logoClair: "/images/villa-mare/logo-tignoso-clair.png",
+logo: string;
+logoClair: string;
   gallery: string[]; // chemins vers /public/images/...
   nearby: PointOfInterest[];
   externalLinks: {
