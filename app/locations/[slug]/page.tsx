@@ -68,7 +68,13 @@ export default async function LocationPage({
     />
   </div>
   <div className="relative mx-auto w-full max-w-6xl px-6 pb-12 text-whitewash">
-
+<p className="flex items-center gap-1.5 font-mono text-xs uppercase tracking-[0.15em] text-stone-200">
+            <MapPin size={13} /> {location.village}, Balagne
+          </p>
+          <h1 className="mt-2 font-display text-4xl sm:text-5xl">{location.name}</h1>
+          <p className="mt-2 text-terracotta">{location.tagline}</p>
+        </div>
+      </section>
       <div className="mx-auto max-w-6xl px-6 py-16">
         <div className="grid gap-16 lg:grid-cols-[1fr_360px]">
           <div>
