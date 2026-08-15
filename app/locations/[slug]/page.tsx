@@ -48,24 +48,26 @@ export default async function LocationPage({
 
   return (
     <>
-      <section className="relative flex h-[60vh] items-end overflow-hidden bg-dusk-900">
-        <Image
-          src={location.coverImage}
-          alt={location.name}
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover opacity-80"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-dusk-900 via-dusk-900/10 to-transparent" />
-        <div className="relative mx-auto w-full max-w-6xl px-6 pb-12 text-whitewash">
-          <p className="flex items-center gap-1.5 font-mono text-xs uppercase tracking-[0.15em] text-stone-200">
-            <MapPin size={13} /> {location.village}, Balagne
-          </p>
-          <h1 className="mt-2 font-display text-4xl sm:text-5xl">{location.name}</h1>
-          <p className="mt-2 text-terracotta">{location.tagline}</p>
-        </div>
-      </section>
+     <section className="relative flex h-[60vh] items-end overflow-hidden bg-dusk-900">
+  <Image
+    src={location.coverImage}
+    alt={location.name}
+    fill
+    priority
+    sizes="100vw"
+    className="object-cover opacity-80"
+  />
+  <div className="absolute inset-0 bg-gradient-to-t from-dusk-900 via-dusk-900/10 to-transparent" />
+  <div className="absolute top-6 left-6 w-32 sm:w-40">
+    <Image
+      src={location.logo}
+      alt={`Logo ${location.name}`}
+      width={400}
+      height={260}
+      className="w-full h-auto rounded-lg shadow-lg"
+    />
+  </div>
+  <div className="relative mx-auto w-full max-w-6xl px-6 pb-12 text-whitewash">
 
       <div className="mx-auto max-w-6xl px-6 py-16">
         <div className="grid gap-16 lg:grid-cols-[1fr_360px]">
