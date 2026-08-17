@@ -9,8 +9,8 @@ type FilterKey = "toutes" | "villa-mare" | "casa-monte" | "region";
 
 const filters: { key: FilterKey; label: string }[] = [
   { key: "toutes", label: "Toutes" },
-  { key: "villa-mare", label: "Villa Mare" },
-  { key: "casa-monte", label: "Casa Monte" },
+  { key: "villa-mare", label: "Tignoso" },
+  { key: "casa-monte", label: "IsulaRossa BellaVista" },
   { key: "region", label: "La Balagne" },
 ];
 
