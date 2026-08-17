@@ -204,7 +204,11 @@ logoClair: "/images/casa-monte/logo-bellavista-clair.png",
 "/images/casa-monte/chambre-3.jpg",
 "/images/casa-monte/terrasse.jpg",
 "/images/casa-monte/vue-mer.jpg",
-    ],
+  "/images/casa-monte/salon.jpg",
+  "/images/casa-monte/spa.jpg",
+  "/images/casa-monte/spa-la-nuit.jpg",
+  "/images/casa-monte/vue-agriates.jpg",
+],
     nearby: [
       {
         name: "Centre-ville et port de L'Île-Rousse",
