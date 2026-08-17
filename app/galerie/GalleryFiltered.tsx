@@ -18,8 +18,8 @@ export function GalleryFiltered() {
   const [active, setActive] = useState<FilterKey>("toutes");
 
   const regionImages = regionSections.flatMap((s) => s.images);
-  const villaMare = locations.find((l) => l.slug === "Tignoso")?.gallery ?? [];
-  const casaMonte = locations.find((l) => l.slug === "IsulaRossa BellaVista")?.gallery ?? [];
+  const villaMare = locations.find((l) => l.slug === "casa-tignoso")?.gallery ?? [];
+  const casaMonte = locations.find((l) => l.slug === "isula-rossa-bellavista")?.gallery ?? [];
 
   const imagesByFilter: Record<FilterKey, string[]> = {
     toutes: [...villaMare, ...casaMonte, ...regionImages],
