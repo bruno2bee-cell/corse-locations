@@ -8,20 +8,27 @@ export default function MentionsLegalesPage() {
       <h1 className="font-display text-3xl text-dusk-900">Mentions légales</h1>
       <div className="mt-8 space-y-6 text-sm leading-relaxed text-dusk-700">
         <p>
-          À REMPLACER — Éditeur du site : nom/raison sociale, adresse, email,
-          numéro de téléphone, numéro SIRET si activité déclarée.
-        </p>
-        <p>
-          À REMPLACER — Hébergeur : nom de l&apos;hébergeur (ex : Vercel Inc.),
-          adresse.
-        </p>
-        <p>
-          À REMPLACER — Numéro de déclaration en mairie / numéro
-          d&apos;enregistrement meublé de tourisme, si applicable pour tes
-          locations en France.
-        </p>
-        <p>
-          À REMPLACER — Directeur de la publication.
+          Éditeur du site
+
+SARL SAVIEZZA BUSINESS
+SIRET : 753 315 159 00032
+Villa Tignoso 89, Strada Di a Murza, lieu-dit Castelaccio
+20220 Monticello, France
+Email : bruno2bee@gmail.com
+Téléphone : +33 6 86 91 46 62
+
+Hébergeur
+
+Vercel Inc.
+340 S Lemon Ave #4133
+Walnut, CA 91789
+États-Unis
+
+Numéro de déclaration en mairie Référence : WUQ93HTL
+
+Directeur de la publication
+
+M. Bruno Bee
         </p>
       </div>
     </div>
