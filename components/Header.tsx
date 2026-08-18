@@ -16,7 +16,7 @@ export function Header() {
           href="/"
           className="font-display text-xl tracking-tight text-dusk-900"
         >
-          Balagne&nbsp;Terra
+          Tignoso
         </Link>
         <nav aria-label="Navigation principale">
           <ul className="hidden items-center gap-8 md:flex">
