@@ -16,14 +16,9 @@ export default function ConfidentialitePage() {
           ni revendues ni utilisées à des fins commerciales tierces.
         </p>
         <p>
-          À REMPLACER — Durée de conservation des données du formulaire de
-          contact (ex : 12 mois).
+          Les données du formulaire de contact sont conservées pendant 36 mois, puis supprimées.
         </p>
-        <p>
-          À REMPLACER — Coordonnées pour exercer vos droits d&apos;accès, de
-          rectification et de suppression (RGPD), conformément à la loi
-          Informatique et Libertés.
-        </p>
+          Pour exercer vos droits d'accès, de rectification et de suppression, vous pouvez nous contacter à l'adresse suivante : bruno2bee@gmail.com, ou par courrier à : SARL SAVIEZZA BUSINESS, Villa Tignoso 89, Strada Di a Murza, lieu-dit Castelaccio, 20220 Monticello.
         <p>
           Ce site ne dépose pas de cookies de suivi publicitaire. Si tu
           ajoutes un outil d&apos;analyse d&apos;audience (Google Analytics,
