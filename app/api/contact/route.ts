@@ -36,7 +36,7 @@ export async function POST(req: Request) {
   }
 
   const emailBody = `
-Nouvelle demande de contact — Balagne Terra
+Nouvelle demande de contact — Tignoso
 
 Nom : ${name}
 Email : ${email}
