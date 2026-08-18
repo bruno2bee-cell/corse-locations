@@ -21,24 +21,22 @@ const jetbrainsMono = JetBrains_Mono({
   weight: ["400", "500"],
 });
 
-// À REMPLACER : mets ton vrai nom de domaine une fois le site déployé.
-const siteUrl = "https://www.balagne-terra.example";
+const siteUrl = "https://www.tignoso.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Balagne Terra — Locations saisonnières en Corse",
-    template: "%s — Balagne Terra",
+    default: "Tignoso — Locations saisonnières en Corse",
+    template: "%s — Tignoso",
   },
   description:
     "Deux locations de charme en Balagne, entre mer et villages perchés. Photos, disponibilités en temps réel et guide de la région.",
   openGraph: {
     type: "website",
     locale: "fr_FR",
-    siteName: "Balagne Terra",
-    title: "Balagne Terra — Locations saisonnières en Corse",
-    description:
-      "Deux locations de charme en Balagne, entre mer et villages perchés.",
+    siteName: "Tignoso",
+    title: "Tignoso — Locations saisonnières en Corse",
+    description: "Deux locations de charme en Balagne, entre mer et villages perchés.",
     images: ["/images/corse/og-cover.jpg"],
   },
   twitter: {
