@@ -8,7 +8,7 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-6 py-12">
         <div className="grid gap-10 md:grid-cols-3">
           <div>
-            <p className="font-display text-lg">Balagne Terra</p>
+            <p className="font-display text-lg">Tignoso</p>
             <p className="mt-3 max-w-xs text-sm text-whitewash/70">
               Deux locations saisonnières au cœur de la Balagne, entre mer et
               villages perchés.
@@ -41,7 +41,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-10 flex flex-col gap-3 border-t border-whitewash/10 pt-6 text-xs text-whitewash/50 sm:flex-row sm:items-center sm:justify-between">
-          <p>© {new Date().getFullYear()} Balagne Terra. Tous droits réservés.</p>
+          <p>© {new Date().getFullYear()} Tignoso. Tous droits réservés.</p>
           <div className="flex gap-4">
             <Link href="/mentions-legales" className="hover:text-whitewash/80">Mentions légales</Link>
             <Link href="/confidentialite" className="hover:text-whitewash/80">Confidentialité</Link>
