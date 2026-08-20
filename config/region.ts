@@ -70,17 +70,15 @@ export const regionSections: RegionSection[] = [
       { name: "Marché de L'Île-Rousse", note: "Un marché couvert animé où trouver produits fermiers et spécialités corses" },
     ],
   },
-  {
+ {
     slug: "patrimoine",
     title: "Patrimoine",
     icon: "patrimoine",
     text: "L'histoire de la Balagne se lit dans son patrimoine : la citadelle de Calvi veille sur la baie, les tours génoises jalonnent le littoral, et les églises baroques témoignent du riche passé de la région.",
-   images: ["/images/corse/patrimoine-1.jpg", "/images/corse/patrimoine-2.jpg", "/images/corse/ile-rousse-phare-tramonto.jpg"],
-highlights: [
-  { name: "Citadelle de Calvi", note: "Une forteresse génoise imposante, dominant le golfe et la ville" },
-  { name: "Phare de la Pietra", note: "Sur la presqu'île rocheuse de L'Île-Rousse, un cadre spectaculaire au coucher du soleil" },
-],
+    images: ["/images/corse/patrimoine-1.jpg", "/images/corse/patrimoine-2.jpg", "/images/corse/ile-rousse-phare-tramonto.jpg"],
+    highlights: [
       { name: "Citadelle de Calvi", note: "Une forteresse génoise imposante, dominant le golfe et la ville" },
+      { name: "Phare de la Pietra", note: "Sur la presqu'île rocheuse de L'Île-Rousse, un cadre spectaculaire au coucher du soleil" },
     ],
   },
 ];
