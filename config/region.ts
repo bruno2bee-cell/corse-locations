@@ -24,11 +24,12 @@ export const regionSections: RegionSection[] = [
     title: "Les plages",
     icon: "plage",
     text: "La Balagne compte parmi les plus belles plages de Corse : de longues étendues de sable fin bordées d'eaux turquoise, des criques plus sauvages accessibles à pied, et des spots pour tous les goûts, entre farniente en famille et coins plus confidentiels.",
-    images: [
-      "/images/corse/plage-1.jpg",
-      "/images/corse/plage-2.jpg",
-      "/images/corse/plage-3.jpg",
-    ],
+   images: [
+  "/images/corse/plage-1.jpg",
+  "/images/corse/plage-2.jpg",
+  "/images/corse/plage-3.jpg",
+  "/images/corse/ile-rousse-plage-nuit.jpg",
+],
     highlights: [
      { name: "Plage de l'Ostriconi", note: "Un cadre sauvage entre dunes et embouchure de rivière, à l'extrémité de la Balagne" },
 { name: "Plage de Bodri", note: "Une crique préservée, accessible à pied par un joli sentier côtier" },
@@ -74,8 +75,11 @@ export const regionSections: RegionSection[] = [
     title: "Patrimoine",
     icon: "patrimoine",
     text: "L'histoire de la Balagne se lit dans son patrimoine : la citadelle de Calvi veille sur la baie, les tours génoises jalonnent le littoral, et les églises baroques témoignent du riche passé de la région.",
-    images: ["/images/corse/patrimoine-1.jpg", "/images/corse/patrimoine-2.jpg"],
-    highlights: [
+   images: ["/images/corse/patrimoine-1.jpg", "/images/corse/patrimoine-2.jpg", "/images/corse/ile-rousse-phare-tramonto.jpg"],
+highlights: [
+  { name: "Citadelle de Calvi", note: "Une forteresse génoise imposante, dominant le golfe et la ville" },
+  { name: "Phare de la Pietra", note: "Sur la presqu'île rocheuse de L'Île-Rousse, un cadre spectaculaire au coucher du soleil" },
+],
       { name: "Citadelle de Calvi", note: "Une forteresse génoise imposante, dominant le golfe et la ville" },
     ],
   },
