@@ -74,7 +74,7 @@ Une villa et un appartement, un même art de vivre corse.
             Choisissez votre ambiance
           </h2>
           <p className="mt-4 text-dusk-700">
-            De la vue mer de Villa Mare au calme minéral de Casa Monte, deux
+            De la vue mer de casa Tignoso au calme minéral de IsulaRossa-BellaVista, deux
             façons différentes de vivre la Balagne.
           </p>
         </div>
