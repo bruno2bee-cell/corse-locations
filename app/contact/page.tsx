@@ -26,9 +26,9 @@ export default function ContactPage() {
           <div>
             <p className="font-display text-lg text-dusk-900">Coordonnées</p>
             <p className="mt-2">
-  <a href="mailto:bruno2bee@gmail.com" className="hover:text-terracotta transition-colors">
-    bruno2bee@gmail.com
-  </a>
+ <a href="mailto:contact@tignoso.com" className="hover:text-terracotta transition-colors">
+  contact@tignoso.com
+</a>
 </p>
 <p>
   <a href="tel:+33686914662" className="hover:text-terracotta transition-colors">
