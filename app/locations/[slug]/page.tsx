@@ -60,11 +60,16 @@ export default async function LocationPage({
     description: location.shortDescription,
     image: [location.coverImage, ...location.gallery.slice(0, 4)],
     address: {
-      "@type": "PostalAddress",
-      addressLocality: location.village,
-      addressRegion: "Corse",
-      addressCountry: "FR",
-    },
+  "@type": "PostalAddress",
+  streetAddress:
+    location.slug === "casa-tignoso"
+      ? "89 Strada Di a Murza, lieu-dit Castelaccio"
+      : "Résidence Odysséa, 34 boulevard Pierre Pasquini",
+  postalCode: "20220",
+  addressLocality: location.village,
+  addressRegion: "Corse",
+  addressCountry: "FR",
+},
     geo: {
       "@type": "GeoCoordinates",
       latitude: location.coordinates.lat,
