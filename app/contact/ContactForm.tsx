@@ -9,25 +9,26 @@ export function ContactForm() {
   const [status, setStatus] = useState<Status>("idle");
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-    setStatus("sending");
+  e.preventDefault();
+  setStatus("sending");
 
-    const form = new FormData(e.currentTarget);
-    const payload = Object.fromEntries(form.entries());
+  const formElement = e.currentTarget;  // ✅ on la sauvegarde tout de suite
+  const form = new FormData(formElement);
+  const payload = Object.fromEntries(form.entries());
 
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
-      });
-      if (!res.ok) throw new Error();
-      setStatus("sent");
-      e.currentTarget.reset();
-    } catch {
-      setStatus("error");
-    }
+  try {
+    const res = await fetch("/api/contact", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+    if (!res.ok) throw new Error();
+    setStatus("sent");
+    formElement.reset();  // ✅ on utilise la référence sauvegardée, pas e.currentTarget
+  } catch {
+    setStatus("error");
   }
+}
 
   if (status === "sent") {
     return (
