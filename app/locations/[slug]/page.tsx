@@ -94,6 +94,7 @@ export default async function LocationPage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <section className="relative flex h-[60vh] items-end overflow-hidden bg-dusk-900">
+        <Image
     src={location.coverImage}
     alt={location.name}
     fill
