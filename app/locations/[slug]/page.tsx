@@ -20,10 +20,17 @@ export async function generateMetadata({
   const { slug } = await params;
   const location = getLocationBySlug(slug);
   if (!location) return {};
+  const title = `${location.name} — Location ${location.village}, Corse | ${location.capacity} voyageurs`;
+  const description = `${location.shortDescription} ${location.bedrooms} chambres, ${location.bathrooms} salles de bain, ${location.surfaceM2} m². ${location.priceIndication}.`;
   return {
-    title: location.name,
-    description: location.shortDescription,
-    openGraph: { images: [location.coverImage] },
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      images: [location.coverImage],
+      type: "website",
+    },
   };
 }
 
@@ -46,10 +53,47 @@ export default async function LocationPage({
   const location = getLocationBySlug(slug);
   if (!location) notFound();
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "LodgingBusiness",
+    name: location.name,
+    description: location.shortDescription,
+    image: [location.coverImage, ...location.gallery.slice(0, 4)],
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: location.village,
+      addressRegion: "Corse",
+      addressCountry: "FR",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: location.coordinates.lat,
+      longitude: location.coordinates.lng,
+    },
+    telephone: "+33686914662",
+    priceRange: location.priceIndication,
+    numberOfRooms: location.bedrooms,
+    petsAllowed: location.amenities.includes("animaux"),
+    amenityFeature: location.amenities.map((a) => ({
+      "@type": "LocationFeatureSpecification",
+      name: amenityLabels[a],
+    })),
+    ...(location.rating && {
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: location.rating,
+        reviewCount: location.reviewCount,
+      },
+    }),
+  };
+
   return (
     <>
-     <section className="relative flex h-[60vh] items-end overflow-hidden bg-dusk-900">
-  <Image
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <section className="relative flex h-[60vh] items-end overflow-hidden bg-dusk-900">
     src={location.coverImage}
     alt={location.name}
     fill
