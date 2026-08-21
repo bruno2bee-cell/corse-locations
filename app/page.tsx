@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
 import { Compass, Leaf, MapPinned, Waves } from "lucide-react";
 import { locations } from "@/config/locations";
 import { regionSections } from "@/config/region";
