@@ -10,7 +10,27 @@ export const metadata: Metadata = {
 
 export default function CorsePage() {
   return (
-    <>
+    <><script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "TouristDestination",
+      name: regionIntro.name,
+      description: regionIntro.text,
+      url: "https://www.tignoso.com/corse",
+      touristType: "Vacanciers en Corse",
+      includesAttraction: regionSections.map((section) => ({
+        "@type": "TouristAttraction",
+        name: section.title,
+        description: section.text,
+        ...(section.images?.[0] && {
+          image: `https://www.tignoso.com${section.images[0]}`,
+        }),
+      })),
+    }),
+  }}
+/>
       <section className="relative flex h-[50vh] items-end overflow-hidden bg-dusk-900">
         <Image
           src="/images/corse/hero-region.jpg"
