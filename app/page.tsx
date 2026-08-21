@@ -7,7 +7,11 @@ import { regionSections } from "@/config/region";
 import { PropertyCard } from "@/components/PropertyCard";
 import { CoastlineTrace } from "@/components/CoastlineTrace";
 import { HeroSlideshow } from "@/components/HeroSlideshow";
-
+export const metadata: Metadata = {
+  title: "Tignoso — Locations de vacances en Balagne, Corse",
+  description:
+    "Casa Tignoso à Monticello et IsulaRossa Bellavista à L'Île-Rousse : deux locations avec vue mer en Balagne, Corse. Villa avec piscine et penthouse avec jacuzzi, à deux pas des plages.",
+};
 const strengths = [
   {
     icon: Waves,
