@@ -37,7 +37,39 @@ const strengths = [
 
 export default function HomePage() {
   return (
-    <>
+    <><script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": locations.map((location) => ({
+        "@type": "LodgingBusiness",
+        name: location.name,
+        description: location.shortDescription,
+        url: `https://www.tignoso.com/locations/${location.slug}`,
+        image: `https://www.tignoso.com${location.coverImage}`,
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: location.village,
+          addressRegion: "Corse",
+          addressCountry: "FR",
+        },
+        geo: {
+          "@type": "GeoCoordinates",
+          latitude: location.coordinates.lat,
+          longitude: location.coordinates.lng,
+        },
+        ...(location.rating && {
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: location.rating,
+            reviewCount: location.reviewCount,
+          },
+        }),
+      })),
+    }),
+  }}
+/>
       {/* HERO */}
       <section className="relative flex min-h-[85vh] items-end overflow-hidden bg-dusk-900">
         <HeroSlideshow />
