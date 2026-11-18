@@ -12,6 +12,7 @@ export type Amenity =
   | "parking"
   | "clim"
   | "piscine"
+| "jacuzzi"
   | "vue-mer"
   | "jardin"
   | "cuisine-equipee"
@@ -26,6 +27,7 @@ export const amenityLabels: Record<Amenity, string> = {
   parking: "Parking privé",
   clim: "Climatisation",
   piscine: "Piscine",
+ jacuzzi: "Jacuzzi privatif",
   "vue-mer": "Vue mer",
   jardin: "Jardin privatif",
   "cuisine-equipee": "Cuisine équipée",
@@ -188,6 +190,7 @@ logoClair: "/images/villa-mare/logo-tignoso-clair.png",
       "wifi",
       "clim",
       "vue-mer",
+     "jacuzzi",
       "cuisine-equipee",
       "terrasse",
       "parking",
