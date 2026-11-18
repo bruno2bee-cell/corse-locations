@@ -20,10 +20,14 @@ export async function generateMetadata({
   const { slug } = await params;
   const location = getLocationBySlug(slug);
   if (!location) return {};
-  const title = `${location.name} — Location ${location.village}, Corse | ${location.capacity} voyageurs`;
+  const highlight =
+    location.slug === "casa-tignoso"
+      ? "Villa avec piscine"
+      : "Appartement jacuzzi & terrasse";
+  const title = `${location.name} — ${highlight}, ${location.village}`;
   const description = `${location.shortDescription} ${location.bedrooms} chambres, ${location.bathrooms} salles de bain, ${location.surfaceM2} m². ${location.priceIndication}.`;
   return {
-    title,
+    title: { absolute: title },
     description,
     openGraph: {
       title,
